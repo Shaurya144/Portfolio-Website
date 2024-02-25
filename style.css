@@ -94,4 +94,35 @@ nav ul li a:hover {
     width: 100%;
     height: auto;
   }
+}
+.card {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .card-content {
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  margin: 0 6rem;
+  font-family: sans-serif;
+}
+.card .card-content h1 {
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+.card .card-content p {
+  margin: 20px 0;
+  margin-bottom: 40px;
+  line-height: 1.5rem;
+}
+.card .card-content a {
+  text-decoration: none;
+  color: white;
+  background: black;
+  padding: 10px 20px;
+}
+.card .card-img {
+  width: 400px;
 }/*# sourceMappingURL=style.css.map */
